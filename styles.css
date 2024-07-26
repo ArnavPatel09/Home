@@ -2454,6 +2454,7 @@ figcaption {
     margin-bottom: 20px;
     line-height: 145%;
     text-align: left;
+    color: #5d5d5d;
 }
 
 .built-with-webflow {
@@ -2502,7 +2503,7 @@ figcaption {
 }
 
 .post-summary {
-    color: #aaa;
+    color: #5d5d5d;
     font-size: 14px;
     line-height: 22px;
     display: inline;
@@ -2599,6 +2600,7 @@ figcaption {
 }
 
 .blog-title {
+    color: #2e80b6;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 22px;
@@ -2812,3 +2814,65 @@ figcaption {
         height: 210px;
     }
 }
+
+
+.about-me-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .about-me-title {
+    font-size: 32px;
+    color: #2e80b6;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #2e80b6;
+    padding-bottom: 10px;
+  }
+  
+  .about-me-subtitle {
+    font-size: 24px;
+    color: #2e80b6;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .about-me-paragraph {
+    margin-bottom: 15px;
+    color: #5d5d5d;
+  }
+  
+  .about-me-wrapper {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .about-me-content {
+    padding: 30px;
+  }
+
+
+
+  .about-me-interest {
+    margin-bottom: 30px;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 20px;
+  }
+  
+  .about-me-interest-title {
+    font-size: 22px;
+    color: #2e80b6;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  .about-me-interest-content {
+    padding-left: 20px;
+    border-left: 3px solid #2e80b6;
+  }
+  
+  .about-me-interest-content .about-me-paragraph:last-child {
+    margin-bottom: 0;
+  }
